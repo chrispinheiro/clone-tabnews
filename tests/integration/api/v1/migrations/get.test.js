@@ -1,5 +1,5 @@
 import database from "infra/database";
-import orchestrator from "tests/orquestrator";
+import orchestrator from "tests/orchestrator";
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
